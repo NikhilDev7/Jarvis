@@ -1,0 +1,6 @@
+{
+'app_name':
+['firefox','filemanager','broswer','atom','leafpad','xpad','taskmanager','terminal','tarsh'],
+'project_name':
+['jarvis','cb','chatbot','ai','nikhil']
+}

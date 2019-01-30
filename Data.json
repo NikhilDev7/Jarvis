@@ -1,0 +1,10 @@
+{
+  'Open App':
+  {'contexts': {'output': ['app_name'], 'input': ['app_name']}, 'train_phares': ['Open {app_name}', 'Launch {app_name}', '{app_name}', 'bring firefox', 'bring up broswer', 'Run filemanager'],'events':[], 'action': ['App.open','app_name'], 'responses': ['Sure sir', 'okk sir', 'launching it', 'no problem sir'], 'entities': [{'name': 'app_name', 'value': 'x', 'islist': 'n', 'prompt': 'Can you specify the name', 'requried': 'y'}]},
+  'Open Project':{
+  'action': ['Project.open', 'project_name'], 'events': [], 'entities': [{'prompt': 'what is the project name?', 'value': 'x', 'islist': 'no', 'name': 'project_name', 'requried': 'yes'}], 'contexts': {'input': ['project_name'], 'output': ['project_name']}, 'train_phares': ['open my project Jarvis', 'open project Chatbot', 'launch project Chatbot', 'project Chatbot', 'launch project Ai', 'Bring up project Jarvis', "Lets open the project Jarvis"], 'responses': ['Sure Sir', 'open your project', 'Opening project', 'okk sir', 'Bring up your project']
+},
+'Greetings':{'train_phares': ['Hi', 'hello', 'hiii', 'how are you?', 'Namaste', 'Hey'], 'contexts': {'output': ['user_name'], 'input': ['user_name']}, 'responses': ['Hello', 'Hii', 'How can i help?', 'hii , What can i do for you?', 'okk hii'], 'action': [None, None], 'events': [], 'entities': []}
+
+
+}
